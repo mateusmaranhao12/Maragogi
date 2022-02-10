@@ -1,0 +1,210 @@
+/*Piscinas Naturais*/
+
+.piscinas-naturais {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.piscinas-naturais h1{
+    background: rgb(0, 153, 255);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.piscinas-naturais h2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.piscinas-naturais p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.piscinas-naturais2 h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.piscinas-naturais2 h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.piscinas-naturais2 p{
+    margin-bottom: 20px;
+}
+
+.piscinas-naturais2 span{
+    font-weight: bold;
+}
+
+/*Formulário de Reserva das piscinas naturais*/
+
+.formulario-reserva h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.formulario-reserva p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-enviar{
+    background: orange;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn-enviar:hover{
+    background: orangered;
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+/*Modal piscinas Naturais*/
+
+.bg-reserva-sucesso-topo {
+    background: linear-gradient(100deg, rgb(0, 81, 255), rgb(0, 225, 255)) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.bg-reserva-sucesso-footer {
+    background: linear-gradient(50deg, rgb(0, 81, 255), rgb(0, 225, 255)) ;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.bg-reserva-conteudo-sucesso {
+    background: rgb(193, 251, 255) ;
+    color: rgb(0, 0, 0);
+}
+
+.btn-reserva-sucesso {
+    background: rgb(0, 153, 255);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-reserva-sucesso:hover {
+    background: rgb(0, 4, 63);
+}
+
+.bg-reserva-erro-topo {
+    background: linear-gradient(100deg, rgb(255, 174, 0), rgb(255, 245, 102)) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.bg-reserva-erro-footer {
+    background: linear-gradient(150deg, rgb(255, 174, 0), rgb(255, 245, 102)) ;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.bg-reserva-conteudo-erro {
+    background: rgb(255, 251, 193) ;
+    color: rgb(0, 0, 0);
+}
+
+.btn-reserva-erro {
+    background: rgb(255, 208, 0);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-reserva-erro:hover {
+    background: rgb(255, 115, 0);
+}
+
+/*Mergulho*/
+
+.mergulho {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.mergulho h1{
+    background: rgb(0, 153, 255);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mergulho h2{
+    margin-top: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mergulho p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mergulho2 p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mergulho-grids{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mergulho-grids img{
+    margin-top: 20px;
+}
+
+/*Passeios de Buggy*/
+
+.passeios-de-buggy{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.passeios-de-buggy h1{
+    background: rgb(0, 153, 255);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.passeios-de-buggy h2{
+    margin-top: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.passeios-de-buggy h3{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.passeios-de-buggy h4{
+    font-weight: bold;
+    font-size: 17px;
+}

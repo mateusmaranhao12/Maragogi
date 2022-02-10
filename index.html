@@ -1,0 +1,159 @@
+<html>
+	<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Maragogi - Página Principal</title>
+        <link rel="icon" href="img/logo.png">
+
+		<!-- Bootstrap início -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap fim -->
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+    <!--JS-->
+    <script src="js/links-o-que-fazer.js"></script>
+
+	</head>
+
+    <body class="inicial">
+        <header><!--Header-->
+            <nav class="navbar navbar-expand-lg navbar-maragogi">
+                <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                    <i class="fas fa-bars"></i> MENU
+                </button>
+              
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link home" id="inicial"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="maragogi.html" class="nav-link home"> Maragogi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="historia.html" class="nav-link home"> História</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="o-que-fazer.html" class="nav-link home"> O que fazer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="reserva.html" class="nav-link home"> Reserva</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
+        </header><!--/Header-->
+        <section class="conteudo-principal"><!--Conteúdo Principal-->
+            <div class="align-self-center"><!--Container-->
+                <div class="row"> <!--Row-->
+                    <div class="col-md-12 capa">
+                        <div id="carousel" class="carousel slide" data-ride="carousel"><!--Carousel-->
+                            <div class="carousel-inner"><!--Inner -->
+                                <div class="carousel-item active">
+                                    <img src="img/capa.png" class="img-fluid">
+                                </div>
+                        
+                            </div><!--/Inner -->
+                    
+                        </div><!--Fim Carousel-->
+                        <h2 class="col-md-12">HÁ 32 ANOS DIVULGANDO ESTE PARAÍSO!
+                        Suas reservas com quem entende de Maragogi.</h2>
+                    </div>
+                </div> <!--Fim Row-->
+            </div> <!--Fim Container-->
+        </section><!--/Conteúdo Principal-->
+        <section><!--Grids-->
+            <div class=" marcador-container grids">
+                <div class="row">
+          
+                    <div class="marcador col-md-6 col-xl-2" id="cartao1">
+                        <img src="img/img1.jpg" class="img-fluid">
+                        <h4>Piscinas naturais</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <button class="btn btn-grid" onclick="piscinasNaturais()">Leia mais</button>
+                    </div>
+            
+                    <div class="marcador col-md-6 col-xl-2" id="cartao2">
+                        <img src="img/img2.jpg" class="img-fluid">
+                        <h4>As melhores hospedagens</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <button class="btn btn-grid" onclick="hospedagem()">Leia mais</button>
+                    </div>
+                    <div class="marcador col-md-6 col-xl-2" id="cartao3">
+                        <img src="img/img3.jpg" class="img-fluid">
+                        <h4>Viagem rápida para Porto de Galinhas</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <button class="btn btn-grid" onclick="portoDeGalinhas()">Leia mais</button>
+                    </div>
+                    <div class="marcador col-md-6 col-xl-2" id="cartao4">
+                        <img src="img/img4.jpg" class="img-fluid">
+                        <h4>Viagem rápida para Maceió</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <button class="btn btn-grid" onclick="maceio()">Leia mais</button>
+                    </div>
+          
+                    <div class="marcador col-md-6 col-xl-2" id="cartao5">
+                        <img src="img/img5.jpg" class="img-fluid">
+                        <h4>Passeio de Buggy</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <button class="btn btn-grid" onclick="passeiosDeBuggy()">Leia mais</button>
+                    </div>
+                    <div class="marcador col-md-6 col-xl-2" id="cartao6">
+                        <img src="img/img6.jpg" class="img-fluid">
+                        <h4>Gastronomia</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <button class="btn btn-grid" onclick="baresRestaurantes()">Leia mais</button>
+                    </div>
+          
+                </div>
+              </div>  
+        </section><!--/Grids-->
+        <footer class="footer1"><!--Footer-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/logo.png">
+                        <h5><i class="fas fa-envelope"></i> contato@maragogionline.com.br</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h3><i class="fas fa-map-marker-alt"></i>  Maragogi - Alagoas - Brasil</h3>
+                        <div class="icones">
+                            <a href="" class="btn btn-icones ml-3">
+                                <i class="fab fa-youtube fa-lg"></i>
+                            </a>
+                            <a href="" class="btn btn-icones ml-3">
+                                <i class="fab fa-instagram fa-lg"></i>
+                            </a>
+                            <a href="" class="btn btn-icones ml-3">
+                                <i class="fab fa-facebook fa-lg"></i>
+                            </a>
+                            <a href="" class="btn btn-icones ml-3">
+                                <i class="fab fa-twitter fa-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer><!--/Footer-->
+        <footer class="footer2"><!--Footer2-->
+            <h5>Todos os direitos reservados © 2021</h5>
+            <a href=""><img src="img/sitelock.png" width="80px"></a>
+            <a href=""><img src="img/LogoC2.png"></a>
+        </footer><!--/Footer2-->
+    </body>	
+
+</html>
